@@ -57,3 +57,11 @@ Single database
 ```
 mysqldump --user=<id> --password=<password> testdb  > testdb_dump.sql
 ```
+
+--Restore Databases--
+
+Note: You need to run the create database command first, or have a valid database available, albeit empty it, or whatever.
+
+```
+mysql -uroot -p foo_db < hw_aws_prod.sql 
+```
